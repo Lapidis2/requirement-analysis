@@ -89,5 +89,40 @@ To build effective use case diagrams:
 
 ![Use Case Diagram](./alx-booking-uc.png)
 
+## Acceptance Criteria.
+
+### importance of Acceptance Criteria
+
+- ✅ Ensure all parties (developers, designers, stakeholders) have a **clear and shared understanding** of feature requirements.
+- 🧪 Provide a **concrete basis for testing and validation**, helping teams know when a feature is complete.
+- 🎯 Help maintain **high quality** and ensure the product meets **user expectations**.
+
+  
+## Example of Acceptance Criteria – Checkout Feature
+
+### User Story
+As a **registered user**,  
+I want to complete my booking by making a secure payment,  
+So that I can reserve my selected property.
+
+### Acceptance Criteria
+- ✅ User must be logged in to access the checkout page.
+- ✅ The checkout page must display:
+  - Property name
+  - Booking dates
+  - Price breakdown (base price, fees, total)
+- ✅ User can apply a valid promo code and see the updated total.
+- ✅ User must provide valid payment details (card number, expiry, CVV).
+- ✅ The system must validate the payment before confirming the booking.
+- ✅ On successful payment:
+  - The booking is marked as **confirmed**
+  - The property availability is updated
+  - A confirmation message (email/SMS) is sent to the user
+- ❌ On failed payment:
+  - An appropriate error message is displayed
+  - The booking is not confirmed or held
+- ✅ The checkout process must complete within **5 seconds** under normal load.
+
+
 
 This repo is part of a learning project under the ALX Software Engineering program especially Pro Dev Frontend .
