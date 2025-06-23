@@ -87,6 +87,7 @@ To build effective use case diagrams:
 - Help in **identifying and organizing system requirements** early in the design phase.
 - Facilitate **communication among stakeholders**, developers, and designers by showing how users expect to interact with the system.
 
+![Use Case Diagram](./alx-booking-uc.png)
 
 
 This repo is part of a learning project under the ALX Software Engineering program especially Pro Dev Frontend .
