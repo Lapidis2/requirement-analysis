@@ -43,6 +43,21 @@ Here, you'll see:
 - **Review and Approval:** Reviewing the documented requirements with stakeholders to ensure accuracy and completeness.
 - **Acceptance Criteria:** Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
 - **Traceability:** Establishing traceability matrices to ensure all requirements are addressed during development and testing.
+## Types of Requirements.
+
+### Functional Requirements
+- Users (guests and hosts) can register, authenticate, and manage their profiles.
+- Guests can search for properties by location, viewing photos, prices, ratings, and availability.
+- Guests can make bookings and cancel them; once booked, rooms must reflect real-time availability.
+- Hosts can add, update, or remove property listings, and monitor bookings.
+- The system must process payments securely during bookings.
+
+### Non-functional Requirements
+- Search and booking responses should return with low latency to enable real-time responsiveness.
+- The system should offer high availability, ensuring minimal downtime for users.
+- Inventory must have strict consistency, preventing double-bookings via concurrency control.
+- Architecture must scale to support hundreds of millions of users and hundreds of thousands of listings.
+- All sensitive data (user info, payment details) must be encrypted and protected for security.
 
 
 
