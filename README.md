@@ -58,7 +58,34 @@ Here, you'll see:
 - Inventory must have strict consistency, preventing double-bookings via concurrency control.
 - Architecture must scale to support hundreds of millions of users and hundreds of thousands of listings.
 - All sensitive data (user info, payment details) must be encrypted and protected for security.
+  
+## Use Case Diagrams.
 
+Use case diagrams illustrate how different types of users (actors) interact with the system to achieve specific goals (use cases). They help visualize the system's functionality from a user's perspective.
+
+### Creating Use Case Diagrams
+
+To build effective use case diagrams:
+
+- **Identify Actors**: Examples include:
+  - Guest (unauthenticated user)
+  - Registered User (authenticated user)
+  - Host
+  - Admin
+- **Define Use Cases**: Examples include:
+  - Search properties
+  - Book property
+  - Cancel booking
+  - Manage listings
+  - Process payments
+  - Approve or block listings
+- **Draw Interactions**: Connect actors to the use cases they interact with using association lines.
+
+### Benefits of Use Case Diagrams
+
+- Provide a **clear visual representation** of the system’s functional scope.
+- Help in **identifying and organizing system requirements** early in the design phase.
+- Facilitate **communication among stakeholders**, developers, and designers by showing how users expect to interact with the system.
 
 
 
